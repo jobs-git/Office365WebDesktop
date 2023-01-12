@@ -26,6 +26,7 @@ function createWindow () {
       spellcheck: true
     }
   })
+  mainWindow.setMenuBarVisibility(false)
   
   // Open the DevTools.
   //mainWindow.webContents.openDevTools()
